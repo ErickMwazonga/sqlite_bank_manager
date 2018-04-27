@@ -61,12 +61,3 @@ class Member:
 
     def __str__(self):
         return 'Member {}: {}'.format(self.fullname, self.account_number)
-
-
-
-
-# m = Member('Erick', 'Mwaz', '0723456782',  3000)
-# print(m.email())
-# print(m.fullname())
-# print(m.account_number())
-# print(m.get_balance())
